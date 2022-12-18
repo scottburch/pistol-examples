@@ -781,10 +781,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
-"@scottburch/pistol@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@scottburch/pistol/-/pistol-1.0.3.tgz#8f8dc3cac71d5512b97c9178124f134df36de6fc"
-  integrity sha512-hYcYdOd+wUNfQefwRi74BpnJdfGzE1fIp0Mtt/ENfWvfLdKnjTJOHh2flE2tTsBTof//7IZnX9MAZG1QDCm7GQ==
+"@scottburch/pistol@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@scottburch/pistol/-/pistol-1.0.4.tgz#a4bd12cb548921b26c2668a776ea99d3c5e7de6a"
+  integrity sha512-S4mY9qqmiOWUgB9EU5Tf52cGKkXFowgBsKvY8rCJVoEmnDXcz5W8h1+xnXZtKH3wRk94Kxa4XthWYDDDhP6C+g==
   dependencies:
     "@noble/ed25519" "^1.7.1"
     "@protobuf-ts/protoc" "^2.8.2"
