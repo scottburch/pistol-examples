@@ -9,11 +9,13 @@ yarn
 yarn start-demo
 ```
 
-This will download the code, setup dependencies and start two peer nodes.  After you run  `yarn start-demo`you will get the addresses for the two browsers to start to chat.  Browser1 will connect to Node0 and Browser2 will connect to Node1.
-The actual code will not run from the nodes.  That is being served by a dev server.
+This will download the code, setup dependencies, start two peer nodes and a dev server to serve the static browser code.  After you run  `yarn start-demo`you will get the addresses for the two browsers to start to chat.  Browser1 will connect to Node0 and Browser2 will connect to Node1.
+There is no special code on the nodes.  The chat code is being served statically by a dev server and run in the browsers which are themselves nodes on the network.  The browsers are running the same underlying code as the nodes.
 
 ```mermaid
 graph LR;
+    StaticDevServer-->Browser1
+    StaticDevServer-->Browser2
     Browser1-->Node0-->Node1-->Browser2;
     Browser2-->Node1-->Node0-->Browser1;
 
@@ -54,7 +56,6 @@ startTestNetwork([[1], []]).pipe(
 ```
 
 Next we will look at the client side code since that is a lot more interesting.  Pistol comes with a library for React to provide hooks to update component state.
-
 
 
 This block starts pistol, renders the react components and starts a peer connection.  You can have multiple peer connections.
