@@ -1,0 +1,25 @@
+{
+  "name": "pistol-examples",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "@scottburch/pistol": "^1.0.3",
+    "@types/react": "^18.0.26",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "playwright": "^1.29.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "rm -rf lib & tsc --watch",
+    "start-demo": "node --require=ts-node/register   --loader=ts-node/esm    --experimental-specifier-resolution=node src/startDemo.ts"
+  }
+}
