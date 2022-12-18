@@ -14,8 +14,8 @@ There is no special code on the nodes.  The chat code is being served statically
 
 ```mermaid
 graph LR;
-    StaticDevServer-->Browser1
-    StaticDevServer-->Browser2
+    StaticHtmlServer-->Browser1
+    StaticHtmlServer-->Browser2
     Browser1-->Node0-->Node1-->Browser2;
     Browser2-->Node1-->Node0-->Browser1;
 
@@ -30,9 +30,14 @@ Pistol is a fully peer-to-peer application framework.  There are no central serv
 
 ### Why use Pistol?
 
-Pistol is a great way to get an application up and running quickly (rapid development).  It is also a great solution for proof-of-concept (POC) and working prototype development due to its simple API design.  **With Pistol, you can stop worrying about server communication since all reads and writes are local to the app.** **You can develop the app without a server at all since the app is a peer in the network.**
+**Rapid Development**
+Pistol is a great way to get an application up and running quickly (rapid development).  It is also a great solution for proof-of-concept (POC) and working prototype development due to its simple API design.  **With Pistol, you can stop worrying about server communication since all reads and writes are local to the app.** **You can develop a running app without a server at all since the app is a peer in the network.**
 
 If you want to know more about this.  Look at or read more about the demo code below.
+
+**Censorship Resistance**
+
+Since there is no central authority, only the owner of an application can control what data is stored.  The owner of an application can also choose to release that ability so they can't control access to the application.  It is the choice of the person creating the application.
 
 ### How does security work without a central authority?
 
