@@ -35,6 +35,17 @@ Pistol is a great way to get an application up and running quickly (rapid develo
 
 If you want to know more about this.  Look at or read more about the demo code below.
 
+
+
+**Offline-first Applications**
+Since Pistol does not require any server to operate, it is perfect for offline-first applications.
+
+
+**Collabrative Software**
+
+Pistol is perfect for collabrative software since everyone on the peer-to-peer network is sharing data automatically.
+
+
 **Censorship Resistance**
 
 Since there is no central authority, only the owner of an application can control what data is stored.  The owner of an application can also choose to release that ability so they can't control access to the application.  It is the choice of the person creating the application.
