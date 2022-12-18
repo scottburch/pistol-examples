@@ -1,11 +1,11 @@
 {
-  "name": "pistol-examples",
+  "name": "@scottburch/pistol-examples",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": "./index.js"
+    ".": "./lib/index.js"
   },
   "dependencies": {
     "@scottburch/pistol": "^1.0.4",
