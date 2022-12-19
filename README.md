@@ -50,6 +50,20 @@ Pistol is perfect for collabrative software since everyone on the peer-to-peer n
 
 Since there is no central authority, only the owner of an application can control what data is stored.  The owner of an application can also choose to release that ability so they can't control access to the application.  It is the choice of the person creating the application.
 
+
+
+**Gaming**
+
+Perfect for communication between game instances with them speaking P2P.
+
+
+
+**Internet of Things (IoT)**
+
+We are keeping the protocol as light as possible to make it possible to have peers on small low cost devices.
+
+
+
 ### How does security work without a central authority?
 
 Pistol uses cryptographic proofs similar to the ones used in Bitcoin to verify you are you you say you are.  Pistol has a built in access control mechanism which allows you to say who can modify data.  Currently, users have the ability to own data that they write (first come first own) or to have world writable data.  Many more options are to come including group permissions.
